@@ -148,18 +148,16 @@ body {
   transition: 250ms border-color cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.policy {
+.modal-form-label-agree {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
-}
-
-.modal-form-label-agree {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text);
+  cursor: pointer;
 }
 
 .modal-form-label-svg {
