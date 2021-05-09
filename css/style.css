@@ -174,17 +174,17 @@ body {
   fill: var(--accent);
 }
 
-.checkbox:focus + .modal-form-label-agree-svg,
-.checkbox:hover + .modal-form-label-agree-svg {
-  border-color: var(--accent);
-}
-
 .modal-form-label-agree-svg {
   fill: var(--alt-title);
   border: 2px solid var(--title-color);
   background-color: var(--bg);
   border-radius: 2px;
   margin-right: 8px;
+}
+
+.checkbox:focus + .modal-form-label-agree-svg,
+.checkbox:hover + .modal-form-label-agree-svg {
+  border-color: var(--accent);
 }
 
 .checkbox:checked + .modal-form-label-agree-svg {
